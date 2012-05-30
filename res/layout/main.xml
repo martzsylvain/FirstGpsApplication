@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+    <LinearLayout android:id="@+id/button_layout"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentTop="true"
+                  android:layout_margin="5dp"
+            >
+
+        <Button android:id="@+id/start_retrieve_location"
+                android:text="@string/button_start_text"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+        <Button android:id="@+id/stop_retrieve_location"
+                android:text="@string/button_stop_text"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/text_layout"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@id/button_layout"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:padding="10sp"
+            >
+    </LinearLayout>
+    <Button android:id="@+id/quit"
+            android:text="@string/quit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            />
+</RelativeLayout>
+
